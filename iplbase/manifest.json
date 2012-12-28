@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "IPL Wiki Extension",
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["http://*.iplwiki.info/*","https://*.iplwiki.info/*"],
+      "js": ["jquery-1.6.1.min.js", "wiki.js"],
+      "css": ["wiki.css"]
+    }
+  ]
+}

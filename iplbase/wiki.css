@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Wendy+One);
+.iplheader li {
+	font-family: 'Wendy One', sans-serif;
+	font-size: 12px;
+	display:inline;
+	background-color:#eee;
+	border:1px solid;
+	border-color:#f3f3f3 #bbb #bbb #f3f3f3;
+	margin:0;
+	padding:.5em;
+	zoom: 1;
+}
